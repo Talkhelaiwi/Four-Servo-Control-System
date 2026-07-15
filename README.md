@@ -1,26 +1,31 @@
-# Four Servo Motors Project
+# Four Servo Motors Control System
 
 ## Project Overview
 
-This project was developed using Arduino Uno and Tinkercad to control four servo motors.
+This project was developed using Arduino Uno and Tinkercad to control four servo motors simultaneously.
 
+The system performs a Sweep motion for all four servo motors during the first 2 seconds. After that, every servo automatically stops and holds its position at 90°.
 
-## Tinkercad Project
-
-https://www.tinkercad.com/things/8sVpnqrNNWt-foue-sevro-motors
-
-
-
-### Task
-
-Program four servo motors to perform the following actions:
-
-1. Run using the Sweep motion for 2 seconds.
-2. After that, make all the motors stop and hold at 90 degrees.
 
 ---
 
-## Components Used
+# Live Simulation for Tinkercad Project
+
+https://www.tinkercad.com/things/8sVpnqrNNWt-foue-sevro-motors
+
+---
+
+# Task
+
+Program four servo motors to:
+
+- Perform the Sweep motion for 2 seconds.
+- Stop automatically.
+- Hold all servo motors at 90°.
+
+---
+
+# Components Used
 
 - Arduino Uno R3
 - Breadboard
@@ -29,23 +34,43 @@ Program four servo motors to perform the following actions:
 
 ---
 
-## Circuit Connections
+# Circuit Connections
 
-| Servo Motor | Signal Pin |
-|-------------|------------|
+| Servo Motor | Arduino Pin |
+|--------------|-------------|
 | Servo 1 | D3 |
 | Servo 2 | D5 |
 | Servo 3 | D6 |
 | Servo 4 | D9 |
 
-Power Connections:
+### Power Connections
 
-- All red wires → 5V
-- All brown wires → GND
+- Red wires → 5V
+- Brown wires → GND
 
 ---
 
-## Arduino Code
+# Screenshots
+
+## Project Files
+
+![Project Files](screenshots/github_files.jpg)
+
+---
+
+## Simulation ON
+
+![Simulation ON](screenshots/simulation_on.jpg)
+
+---
+
+## Simulation OFF
+
+![Simulation OFF](screenshots/simulation_off.jpg)
+
+---
+
+# Arduino Code
 #include <Servo.h>
 
 Servo servo1, servo2, servo3, servo4;
@@ -88,23 +113,26 @@ void loop() {
   }
 }
 
+---
+
+# Project Result
+
+- All four servo motors move together.
+- The Sweep motion runs for the first 2 seconds.
+- After that, all servo motors stop and hold at 90°.
+- The project was successfully tested using Tinkercad.
 
 ---
 
-## Project Result
+# Files Included
 
-- All four servo motors move together using the Sweep motion.
-- The Sweep motion runs for 2 seconds.
-- After that, all motors stop and hold at 90°.
+four_servo_motors.ino
+README.md
+screenshots
 
----
-
-## Files Included
-
-- four_servo_motors.ino
-- README.md
 
 ---
-## Author
 
-Turki Alkhelaiwi for Smart Methods Summer Training
+# Author
+
+Smart Methods Summer Training
