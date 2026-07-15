@@ -16,7 +16,7 @@ https://www.tinkercad.com/things/8sVpnqrNNWt-foue-sevro-motors
 
 # Task
 
-Program four servo motors to:
+Program four servo motors to perform the following actions:
 
 - Perform the Sweep motion for 2 seconds.
 - Stop automatically.
@@ -51,15 +51,15 @@ Program four servo motors to:
 
 # Screenshots
 
-## Simulation ON
+## Simulation (Sweep Motion)
 
-<img src="screenshots/simulatioon.jpg" width="100%">
+<img src="screenshots/Simulatioon.jpg" width="100%">
 
 ---
 
-## Simulation OFF
+## Final Position (90°)
 
-<img src="screenshots/simulatioof.jpg" width="100%">
+<img src="screenshots/Simulatioof.jpg" width="100%">
 
 ---
 
@@ -121,11 +121,14 @@ void loop() {
 
 - four_servo_motors.ino
 - README.md
-- screenshots
+- screenshots/
+  - Simulatioon.jpg
+  - Simulatioof.jpg
 
 ---
 
 # Author
 
-Turki Alkhelaiwi  
+Turki Alkhelaiwi
+
 Smart Methods Summer Training
