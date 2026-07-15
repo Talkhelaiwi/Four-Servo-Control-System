@@ -53,13 +53,13 @@ Program four servo motors to:
 
 ## Simulation ON
 
-<img src="screenshots/simulationon.jpg" width="100%">
+<img src="screenshots/simulatioon.jpg" width="100%">
 
 ---
 
 ## Simulation OFF
 
-<img src="screenshots/simulationof.jpg" width="100%">
+<img src="screenshots/simulatioof.jpg" width="100%">
 
 ---
 
