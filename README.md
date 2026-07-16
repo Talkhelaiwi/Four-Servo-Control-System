@@ -120,6 +120,7 @@ void loop() {
 # Files Included
 
 - four_servo_motors.ino
+- Simulationn.mp4   // video of the simulation
 - README.md
 - screenshots/
   - Simulatioon.jpg
