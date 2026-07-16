@@ -51,13 +51,13 @@ Program four servo motors to perform the following actions:
 
 # Screenshots
 
-## Simulation (Sweep Motion)
+## Simulation On
 
 <img src="screenshots/Simulatioon.jpg" width="100%">
 
 ---
 
-## Final Position (90°)
+## Simulation Off 
 
 <img src="screenshots/Simulatioof.jpg" width="100%">
 
